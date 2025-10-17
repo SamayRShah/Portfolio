@@ -16,6 +16,7 @@ export const skills = {
   unity: { short: 'Unity' },
   cs: { short: 'C#' },
   unreal: { short: 'Unreal Engine' },
+  blueprints: { short: 'Blueprints' },
   maya: { short: 'Maya' },
   substance: { short: 'Substance Painter' },
   zb: { short: 'Z Brush' },
@@ -104,10 +105,11 @@ export const projects: Project[] = [
     start: new Date('October 2025'),
     end: new Date('October 2025'),
     description: [
-      `Created basic projection blending, distortion, ripple, volumetric and cloth shaders in Unreal Engine`
+      `Created basic projection blending, distortion, ripple, volumetric and cloth shaders in Unreal Engine`,
+      `(used built in starter content textures)`
     ],
-    image: '/images/projects/shooter-io.png',
-    skills: [skills.mern, skills.js, skills.tw]
+    image: '/images/projects/basic_shaders.png',
+    skills: [skills.unreal, skills.blueprints]
   },
   {
     name: 'Shooter.io',
