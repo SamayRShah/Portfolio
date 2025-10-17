@@ -100,6 +100,16 @@ export const socials: IconLink[] = [
 
 export const projects: Project[] = [
   {
+    name: 'Unreal Engine basic Shaders',
+    start: new Date('October 2025'),
+    end: new Date('October 2025'),
+    description: [
+      `Created basic projection blending, distortion, ripple, volumetric and cloth shaders in Unreal Engine`
+    ],
+    image: '/images/projects/shooter-io.png',
+    skills: [skills.mern, skills.js, skills.tw]
+  },
+  {
     name: 'Shooter.io',
     start: new Date('November 2024'),
     end: new Date('December 2024'),
